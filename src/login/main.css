@@ -1,0 +1,166 @@
+/* Arkaplan rengi */
+.bg-color{
+    background-color: #edf2f7;
+}
+
+/* Ana kapsayıcı için */
+.kcFormCardClass  {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f7fafc;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 12px 110px rgba(0, 0, 0, 0.1);
+}
+
+/* Başlık için
+#kc-form h1 {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+} */
+
+.kcFormCardClass h1{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input alanları için */
+.kcInputClass {
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.kcInputClass:focus {
+    border-color: #307467;
+    box-shadow: 0 0 3px rgba(8, 95, 146, 0.5);
+}
+
+
+/* Hata mesajları */
+.kcInputErrorMessageClass {
+    color: #e53935;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+/* Label için */
+.kcLabelClass {
+    font-size: 14px;
+    font-weight: thin;
+    margin-bottom: 6px;
+    color: #555;
+}
+
+/* Şifre görünürlük butonu */
+.kcFormPasswordVisibilityButtonClass:hover {
+    box-shadow: none;
+}
+
+/* Sosyal giriş sağlayıcıları */
+#kc-social-providers {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.kcFormSocialAccountListClass {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.kcFormSocialAccountListButtonClass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.kcFormSocialAccountListButtonClass:hover {
+    background: #e0e0e0;
+}
+
+/* Form butonları */
+#kc-form-buttons {
+    margin-top: 20px;
+}
+
+.kcButtonClass {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background: #306fdb;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.kcButtonClass:hover {
+    background:opacity(0.8);    
+
+}
+
+/* Ek ayar alanları */
+#kc-form-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.checkbox label {
+    font-size: 14px;
+    color: #555;
+}
+
+/* "Forgot Password" linki */
+.kcFormOptionsWrapperClass a {
+    font-size: 14px;
+    color: #555;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.kcFormOptionsWrapperClass a:hover {
+    color: #03aaf8;
+}
+
+/* Kayıt ol bilgisi */
+#kc-registration-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#kc-registration a {
+    color: #555;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#kc-registration a:hover {
+    color: #03aaf8;
+}
+
+.bg-color{
+    background-color: #edf2f7;
+}
+
+#kc-info-wrapper{
+    border-radius: 0px 0px 12px 12px;
+}
