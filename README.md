@@ -13,11 +13,16 @@ git clone https://github.com/keycloakify/keycloakify-starter
 cd keycloakify-starter
 yarn install # Or use an other package manager, just be sure to delete the yarn.lock if you use another package manager.
 
-start with storybook = storybook ile başlatma - npm run storybook
-add story page - story ile sayfa ekleme - npx keycloakify add-story
-ejeck story page - storynin ejektesi(tsx) versiyonunu oluşturma - npx keycloakify eject-page
-test with docker - npx keycloakify start-keycloak
-last build for .jar format - son build - npm run build-keycloak-theme
+#start with storybook = storybook ile başlatma -
+npm run storybook
+#add story page - story ile sayfa ekleme -
+npx keycloakify add-story
+#eject story page - storynin ejektesi(tsx) versiyonunu oluşturma -
+npx keycloakify eject-page
+#test with docker -
+npx keycloakify start-keycloak
+#last build for .jar format - son build -
+npm run build-keycloak-theme
 ```
 
 # Testing the theme locally
@@ -64,3 +69,25 @@ To release a new version **just update the `package.json` version and push**.
 
 To enable the workflow go to your fork of this repository on GitHub then navigate to:
 `Settings` > `Actions` > `Workflow permissions`, select `Read and write permissions`.
+
+
+# start with storybook = storybook ile başlatma -
+```bash
+npm run storybook
+```
+# add story page - story ile sayfa ekleme -
+```bash
+npx keycloakify add-story
+```
+# eject story page - storynin ejektesi(tsx) versiyonunu oluşturma -
+```bash
+npx keycloakify eject-page
+```
+# test with docker -
+```bash
+npx keycloakify start-keycloak
+```
+# last build for .jar format - son build -
+```bash
+npm run build-keycloak-theme
+```
