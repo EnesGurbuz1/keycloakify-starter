@@ -12,6 +12,12 @@ This starter is based on Vite. There is also [a Webpack based starter](https://g
 git clone https://github.com/keycloakify/keycloakify-starter
 cd keycloakify-starter
 yarn install # Or use an other package manager, just be sure to delete the yarn.lock if you use another package manager.
+
+start with storybook = storybook ile başlatma - npm run storybook
+add story page - story ile sayfa ekleme - npx keycloakify add-story
+ejeck story page - storynin ejektesi(tsx) versiyonunu oluşturma - npx keycloakify eject-page
+test with docker - npx keycloakify start-keycloak
+last build for .jar format - son build - npm run build-keycloak-theme
 ```
 
 # Testing the theme locally
